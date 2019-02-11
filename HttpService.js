@@ -89,3 +89,12 @@ var HttpService = (function () {
     }
   };
 } ());
+
+// Example:
+
+// http.setMethod('GET')
+//         .setUrl('/api/v2/user')
+//         .setData(filters)
+//         .addListener('load', onSuccess)
+//         .addListener('error', onError)
+//         .send();
